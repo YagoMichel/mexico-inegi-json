@@ -13,23 +13,42 @@ La idea es que cualquier desarrollador, estudiante o curioso pueda **consultar, 
 El JSON tiene esta estructura:
 
 ```json
-{
-  "clave_estado": "01",
-  "nombre_estado": "Aguascalientes",
-  "municipios": [
-    {
-      "clave_municipio": "001",
-      "nombre_municipio": "Aguascalientes",
-      "localidades": [
-        {
-          "clave_localidad": "0001",
-          "nombre_localidad": "Aguascalientes"
-        },
-        {
-          "clave_localidad": "0094",
-          "nombre_localidad": "Granja Adelita"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "ce": "01",              // Clave del estado
+    "ne": "Aguascalientes",  // Nombre del estado
+    "m": [                   // Lista de municipios
+      {
+        "cm": "001",         // Clave del municipio
+        "nm": "Aguascalientes", // Nombre del municipio
+        "l": [               // Lista de localidades dentro del municipio
+          {
+            "c": "0001",     // Clave de la localidad
+            "n": "Aguascalientes" // Nombre de la localidad
+          },
+          {
+            "c": "0094",
+            "n": "Granja Adelita"
+          },
+          {
+            "c": "0096",
+            "n": "Agua Azul"
+          },
+          {
+            "c": "0100",
+            "n": "Rancho Alegre"
+          },
+          {
+            "c": "0102",
+            "n": "Los Arbolitos [Rancho]"
+          },
+          {
+            "c": "0104",
+            "n": "Ardillas de Abajo (Las Ardillas)"
+          }
+        ]
+      }
+    ]
+  }
+]
+
