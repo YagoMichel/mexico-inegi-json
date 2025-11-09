@@ -1,6 +1,6 @@
 # 🌎 Catálogo México INEGI – JSON Abreviado
 
-¡Hola! 👋 Soy [Tu Nombre o Usuario], y este proyecto nace de la necesidad de tener un **JSON práctico y accesible** con todos los estados, municipios y localidades de México, basado en los datos del INEGI.
+¡Hola! 👋 Soy Yago, y este proyecto nace de la necesidad de tener un **JSON práctico y accesible** con todos los estados, municipios y localidades de México, basado en los datos del INEGI.
 
 La idea es que cualquier desarrollador, estudiante o curioso pueda **consultar, usar y desplegar esta información fácilmente** en sus proyectos web, apps o sistemas de datos, sin complicaciones.
 
